@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:text="Camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/button_camera" />
+
+    <Button
+        android:text="Calculator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="102dp"
+        android:id="@+id/button_calc"
+        android:layout_below="@+id/button_camera"
+        android:layout_alignStart="@+id/button_camera"
+        android:layout_alignEnd="@+id/button_camera" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button14"
+        android:layout_alignBaseline="@+id/button13"
+        android:layout_alignBottom="@+id/button13"
+        android:layout_alignStart="@+id/button_gallary" />
+
+    <Button
+        android:text="Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_cantact"
+        android:layout_alignBaseline="@+id/button_flash"
+        android:layout_alignBottom="@+id/button_flash"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="17dp" />
+
+    <Button
+        android:text="Video"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_video"
+        android:layout_alignBaseline="@+id/button_gallary"
+        android:layout_alignBottom="@+id/button_gallary"
+        android:layout_alignStart="@+id/button_cantact" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button15"
+        android:layout_alignBaseline="@+id/button14"
+        android:layout_alignBottom="@+id/button14"
+        android:layout_alignStart="@+id/button_video" />
+
+    <Button
+        android:text="Gallary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_gallary"
+        android:layout_alignBaseline="@+id/button_calc"
+        android:layout_alignBottom="@+id/button_calc"
+        android:layout_alignStart="@+id/button_flash" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="76dp"
+        android:id="@+id/button13"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button_calc" />
+
+    <Button
+        android:text="Flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_flash"
+        android:layout_alignBaseline="@+id/button_camera"
+        android:layout_alignBottom="@+id/button_camera"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

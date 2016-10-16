@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.wangkang.myapplication.MainActivity">
+
+    <Button
+        android:text="Confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mTextView_Address"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="95dp"
+        android:id="@+id/mButton_Login" />
+
+    <Button
+        android:text="Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/mButton_Login"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/mButton_Cancel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email Address : "
+        android:id="@+id/mTextView_Address"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:text="    PassWord  : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mTextView_PWD"
+        android:layout_alignBaseline="@+id/mEditText_PWD"
+        android:layout_alignBottom="@+id/mEditText_PWD"
+        android:layout_alignEnd="@+id/mTextView_Address" />
+
+    <Button
+        android:text="Re-Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mButton_Reedit"
+        android:layout_below="@+id/mEditText_PWD"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="40px"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/mEditText_Address"
+        android:layout_marginStart="15dp"
+        android:layout_alignBaseline="@+id/mTextView_Address"
+        android:layout_alignBottom="@+id/mTextView_Address"
+        android:layout_toEndOf="@+id/mTextView_Address" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/mEditText_PWD"
+        android:layout_below="@+id/mEditText_Address"
+        android:layout_alignStart="@+id/mEditText_Address"
+        android:layout_marginTop="19dp" />
+</RelativeLayout>

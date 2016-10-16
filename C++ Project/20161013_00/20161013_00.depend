@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1476369703 source:/home/wangkang/workspace/C++/20161013_00/20161013_00.cpp
+	<iostream>
+	"project_common.h"
+	"student.h"
+
+1476366350 /home/wangkang/workspace/C++/20161013_00/project_common.h
+
+1476369756 /home/wangkang/workspace/C++/20161013_00/student.h
+	"project_common.h"
+
+1476369592 source:/home/wangkang/workspace/C++/20161013_00/student.cpp
+	<iostream>
+	<cstring>
+	"project_common.h"
+	"student.h"
+
